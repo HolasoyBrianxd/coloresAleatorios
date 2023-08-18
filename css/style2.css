@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(23, 41, 56);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* contenedor principal */
+.contenedor-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50vh;
+    min-height: 300px;
+    background-color: whitesmoke;
+    border: 8px solid black;
+}
+/* #contenedor */
+#contenedor{
+    display: flex;
+    flex-direction: row;
+}
+/* boton */
+.btn{
+    font-size: 30px;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #008CBA;
+    margin: 10px;
+    padding: 10px 30px;
+    /* border: 3px solid #008CBA; */
+    user-select: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.btn:hover{
+    background-color: #024359;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* color */
+.color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 12px;
+    margin: 5px;
+}
+
+label, p{
+    margin: 0;
+}
+
+/* texto RGB */
+#texto-rgb{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+/* #copiar */
+#copiar{
+    transition-duration: 0.4s;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+}

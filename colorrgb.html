@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colores Aleatorios</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- CSS PROPIO -->
+    <link rel="stylesheet" href="css//style2.css">
+</head>
+<body>
+    <main class="contenedor-principal">
+        <div class="contenedor-interno">
+            <div class="color">
+                <label for="rojo">Rojo (R)</label>
+                <input type="range" name="rojo" id="rojo" min="0" max="255" value="23" step="1">
+                <p id="texto-rojo"></p>
+            </div>
+            <div class="color">
+                <label for="verde">Verde (G)</label>
+                <input type="range" name="verde" id="verde" min="0" max="255" value="41" step="1">
+                <p id="texto-verde"></p>
+            </div>
+            <div class="color">
+                <label for="azul">Azul (B)</label>
+                <input type="range" name="azul" id="azul" min="0" max="255" value="56" step="1">
+                <p id="texto-azul"></p>
+            </div>
+        </div>
+        <div id="texto-rgb"></div>
+        <section id="contenedor">
+            <a href="./index.html" id="color1" class="btn">Color Hex</a>
+        </section>
+    </main>
+    <section id="copiar"></section>
+
+    <!-- SCRIPT JAVASCRIPT -->
+    <script src="js/rgb.js"></script>
+</body>
+</html>
